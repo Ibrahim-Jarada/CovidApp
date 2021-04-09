@@ -2,6 +2,10 @@ let userCountryCode = "CHN";
 let countrycodes=[]; // object countrycode:api key
 let latestDataSummary=[];
 let userDataSummary=[];
+const totalCasesNum=document.getElementById('total-cases-num')
+const activeCasesNum=document.getElementById('active-cases-num')
+const deathsNum=document.getElementById('deaths-num')
+const recoverdNum =document.getElementById('recoverd-num')
 
 window.onload = () => {
     getRegions();
