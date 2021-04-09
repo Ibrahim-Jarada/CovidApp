@@ -67,20 +67,20 @@
     #first-row{
       display: flex;
       justify-content: space-between;
-      margin: 50px auto;
+      margin: 10vh auto;
   
    }
    #second-row{
     display: flex;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 10vh auto;
 
 
  }
  #third-row{
   display: flex;
   justify-content: space-between;
-  margin: 50px auto;
+  margin: 10vh auto 15vh auto;
 
 
 }
@@ -89,3 +89,50 @@
     h1{
       margin-bottom: 20px;
     }
+
+    #third-row .circle {
+      position: relative;
+      width: 210px;
+      height: 210px;
+      justify-content: center;
+      justify-items: center;
+    }
+    #third-row .circle svg {
+      position: relative;
+      width: 210px;
+      height: 210px;
+    }
+    #third-row .circle svg circle {
+      width: 210px;
+      height: 210px;
+      fill: none;
+      stroke-width: 5;
+      stroke: black;
+      transform: translate(50px, 5px);
+      stroke-dasharray: 314;
+      stroke-dashoffset: 314;
+    }
+    #third-row .circle svg circle:nth-child(1) {
+      stroke-dashoffset:0;
+      stroke: #f0eeec;
+    }
+    
+    
+    #third-row .circle .title {
+      position: absolute;
+      top: -50px;
+      left: -5px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .title p {
+      color: #1c0f13;
+    }
+
+  
+    

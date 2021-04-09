@@ -6,11 +6,18 @@ const totalCasesNum=document.getElementById('total-cases-num')
 const activeCasesNum=document.getElementById('active-cases-num')
 const deathsNum=document.getElementById('deaths-num')
 const recoverdNum =document.getElementById('recoverd-num')
+const welcome=document.getElementById('welcome')
+const deathRatio=document.getElementById('death-ratio')
+const recoveryRatio=document.getElementById('recovery-ratio')
+const deathPercentage=document.getElementById('death-percentage')
+const recoveryPercentage=document.getElementById('recovery-percentage')
+
+
 
 window.onload = () => {
     getRegions();
-    getUserCountryCodeFromIp();
-    getLatestDataSummary()
+    getUserCountryCodeFromIp()
+    .then(getLatestDataSummary)
     .then(getUserDataSummary)
     .then(showData)
   }
@@ -47,6 +54,11 @@ totalCasesNum.textContent=userDataSummary['total_cases']
 activeCasesNum.textContent=userDataSummary['active_cases']
 deathsNum.textContent=userDataSummary['deaths']
 recoverdNum.textContent=userDataSummary['recovered']
+welcome.innerText=`People of ${userDataSummary['name']} \n You Are Welcome`
+deathRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['death_ratio']).toString())
+recoveryRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['recovery_ratio']).toString())
+deathPercentage.textContent=`${parseInt(userDataSummary['death_ratio']*1000)/10}%`
+recoveryPercentage.textContent=`${parseInt(userDataSummary['recovery_ratio']*1000)/10}%`
 
   }
     
