@@ -11,7 +11,8 @@ window.onload = () => {
     getRegions();
     getUserCountryCodeFromIp();
     getLatestDataSummary()
-    .then(getUserDataSummary);
+    .then(getUserDataSummary)
+    .then(showData)
   }
 
   function getUserCountryCodeFromIp() {
@@ -40,5 +41,12 @@ window.onload = () => {
   function getUserDataSummary(){
     userDataSummary=latestDataSummary.regions[countrycodes[userCountryCode]];
     alert('done')
+  }
+  function showData(){
+totalCasesNum.textContent=userDataSummary['total_cases']
+activeCasesNum.textContent=userDataSummary['active_cases']
+deathsNum.textContent=userDataSummary['deaths']
+recoverdNum.textContent=userDataSummary['recovered']
+
   }
     
