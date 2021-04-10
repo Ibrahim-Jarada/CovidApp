@@ -11,7 +11,7 @@ const deathRatio=document.getElementById('death-ratio')
 const recoveryRatio=document.getElementById('recovery-ratio')
 const deathPercentage=document.getElementById('death-percentage')
 const recoveryPercentage=document.getElementById('recovery-percentage')
-
+let wantToReload=false;
 
 
 window.onload = () => {
@@ -20,6 +20,7 @@ window.onload = () => {
     .then(getLatestDataSummary)
     .then(getUserDataSummary)
     .then(showData)
+    .catch(()=>{wantToReload=confirm('It seems your connection is unstable. Do you want to reload the page?');if(wantToReload) location.reload()})
   }
 
   function getUserCountryCodeFromIp() {
