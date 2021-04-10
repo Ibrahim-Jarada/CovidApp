@@ -20,14 +20,14 @@ window.onload = () => {
     .then(getLatestDataSummary)
     .then(getUserDataSummary)
     .then(showData)
-    .catch(()=>{wantToReload=confirm('It seems your connection is unstable. Do you want to reload the page?');if(wantToReload) location.reload()})
+    .catch(()=>{wantToReload=confirm('It seems that your connection is unstable. Do you want to reload the page?');if(wantToReload) location.reload()})
   }
 
   function getUserCountryCodeFromIp() {
     let url='https://get.geojs.io/v1/ip/country.json';
    return fetch(url)
     .then(res=>res.json())
-    .then(data=>alert(userCountryCode=data['country_3']))
+    .then(data=>userCountryCode=data['country_3'])
     
   }
   
@@ -48,7 +48,6 @@ window.onload = () => {
   
   function getUserDataSummary(){
     userDataSummary=latestDataSummary.regions[countrycodes[userCountryCode]];
-    alert('done')
   }
   function showData(){
 totalCasesNum.textContent=userDataSummary['total_cases']
