@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <header><h1>Covid App</h1></header>
+    <section>
+       <h1 id="welcome">Welcome</h1>
+       <div id="stats-container">
+           <div id="first-row">
+               <div id="total-cases">
+                   <h3>Total Cases</h3>
+                   <p id="total-cases-num"></p>
+               </div>
+               <div id="active-cases">
+                <h3>Active Cases</h3>
+                <p id="active-cases-num"></p>
+            </div>
+           </div>
+           <div id="second-row">
+            <div id="deaths">
+                <h3>Deaths</h3>
+                <p id="deaths-num"></p>
+            </div>
+            <div id="recoverd">
+             <h3>Recoverd</h3>
+             <p id="recoverd-num"></p>
+         </div>
+        </div>
+        <div id="third-row">
+            <div id='left'>
+            <div class="circle">
+                <svg>
+                    <circle cx="50" cy="50" r="50"></circle>
+                    <circle cx="50" cy="50" r="50" id='death-ratio'></circle>
+                </svg>
+                <div class="title">
+        <p id="death-percentage"></p>
+                </div>
+            </div>
+            </div>
+            <div id='right'>
+            <div class="circle">
+                <svg>
+                    <circle cx="50" cy="50" r="50"></circle>
+                    <circle cx="50" cy="50" r="50" id="recovery-ratio"></circle>
+                </svg>
+                <div class="title">
+        <p id="recovery-percentage"></p>
+                </div>
+            </div>
+        
+        </div>
+        </div>
+
+
+       </div>
+    </section>
+    <footer class="footer-icons">
+        <a class="footer-icon" id="active" href="home.html"><img src="/assest/home.png" alt="home icon"><p class="footer-text">Home</p></a>
+        <a class="footer-icon"  href="search.html"><img src="/assest/search.png" alt="map icon"><p class="footer-text">Search</p></a>
+        <a class="footer-icon" href="#"><img src="/assest/Education.png" alt="search icon"><p class="footer-text">Eduction</p></a> 
+       
+    </footer>
+    <script src="../js/home.js"></script>
+</body>
+
+</html>
