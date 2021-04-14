@@ -99,3 +99,43 @@ h1{
     width: 100%;
   }
 
+  @media screen and (min-width: 768px){
+      .measures{
+          text-align: center;
+          width: 500px;
+      }
+      .measures h1{
+          text-align: center;
+      }
+      .preventation{
+          font-size: 18px;
+      }
+      .protection{
+          width: 100%;
+
+      }
+      #pro{
+          border-top:none ;
+      }
+     .paragraph_2{
+         width: 250px;
+         font-size: 18px;
+         padding-top: 8px;
+     }
+     .paragraph_1{
+        font-size: 25px;
+     }
+     .div_prevention{
+         width: 900px;
+     }
+     .preventation{
+         padding-left: 30px;
+     }
+     .img_protection{
+
+        width: 100px;
+        height: 100px;
+     }
+
+
+  }
