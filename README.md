@@ -41,14 +41,15 @@ As a user, I want to know about covid disease and know the statistics without wa
 ---
 ## User journey 
 
+
 Our app consists of seven pages (Main Pages, Home Page, Search Page, Education Page).
 
- 1. **Main** pages" is the first four pages, and the user can move to the "Homed Page" by clicking on Skip button, can move to the next page by clicking on Next button and he/she can move between them by click on dotlists at the bottom screen
- 2. The **Search** page from which you can choose the country and view the statistics ,it will also contain the top Countries with the most covid cases.
- 3. The **Home** page Detect user location from his/her IP by fetching an API then Return Covid Stats in his/her location by fetching another API with the result of the first one
- 4. The **Education** page shows you many methods of prevention and safety
- 5. You can move between pages through the menus at the bottom of the screen
-
+1. The "Main pages" : is the first four pages, and the user can move to the "Home Page" by clicking on Skip button, can move to the next page by clicking on Next button and he/she can move between them by click on dotlists at the bottom screen
+2. The "Search page": from which you can choose the country and view the statistics ,it will also contain the top  Countries with the most covid cases. 
+3. The "Home page ":Detect user location from his/her IP by fetching an API then Return Covid Stats in his/her location by fetching another API with the result of the first one, also include to top 3 Countries with most cases of Corona. 
+4. The "Education page" :shows you many methods of prevention and safety. 
+5. You can move between pages through the menus at the bottom of the screen.
+ 
 ## Wireframes
 ![covid app](https://media.giphy.com/media/x5Le2GE4b7gTNlM88w/giphy.gif)
 ## APIs :
