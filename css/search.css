@@ -1,12 +1,12 @@
-* {
+body {
   font-family: "Source Sans Pro", sans-serif;
-}
-.background-img {
-  position: static;
+  background-image: url("../assest/Frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
   display: flex;
-  justify-content: center;
-  margin-top: 150px;
-  opacity: 0.6;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 body {
@@ -373,4 +373,3 @@ margin-top: 80px;
     font-size: 15px;
   }
 }
-
