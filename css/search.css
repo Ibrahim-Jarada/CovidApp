@@ -1,28 +1,119 @@
-* {
+body {
   font-family: "Source Sans Pro", sans-serif;
-}
-.background-img {
-  position: static;
+  background-image: url("../assest/Frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
   display: flex;
-  justify-content: center;
-  margin-top: 150px;
-  opacity: 0.6;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 header {
+  display: flex;
+  justify-content: space-evenly;
   background-color: white;
   position: fixed;
   left: 0;
+  right: 0;
   top: 0;
-  padding-top: 10%;
-  width: 100%;
-  height: 40px;
+  padding-top: 15px;
   font-size: 19px;
   font-weight: bold;
   text-align: center;
+  height: 80px;
   box-shadow: 0px 0px 14px 2px #dcd6d6;
+  width: 100%;
   z-index: 98;
 }
+/* search */
+.Search-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin-left: 30%;
+  margin-top: 90px;
+  z-index: 100;
+  width: 90%;
+}
+#selectedCountry {
+  border: none;
+  outline: none;
+  background-color: #afaaaa9c;
+  width: 500px;
+  height: 45px;
+  border-radius: 40px 1px 0px 40px;
+  margin: 10px;
+  padding-left: 10px;
+}
+#search-button {
+  background-color: #ff647bc0;
+  color: white;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 45px;
+  border-radius: 0px 40px 40px 0px;
+  margin-top: 11px;
+}
+#searchdate {
+  border: none;
+  outline: none;
+  background-color: #afaaaa9c;
+  width: 210px;
+  height: 40px;
+  border-radius: 23px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+/* searched countr */
+.searched-country-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: -365px;
+  justify-content: center;
+  margin-left: 14px;
+}
+.covid-records {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 540px;
+  width: 90%;
+  height: 430px;
+  margin-top: 374px;
+  border-radius: 15px;
+  border: 1px solid #afaaaa5b;
+  padding: 40px;
+  margin-left: 30px;
+}
+.total-cases,
+.active-cases,
+.death-cases {
+  margin: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.death-cases {
+  margin-top: 14px;
+}
+#infected,
+#death {
+  color: #afaaaa;
+  margin: 30px;
+  margin-top: -30px;
+  font-size: 15px;
+}
+
 /* footer style */
 .footer-icon img {
   display: flex;
@@ -53,8 +144,64 @@ footer {
   border-top: 1px solid #dcd6d6ce;
   bottom: 0;
   left: 0;
-  padding-top: 15px;
+  padding-top: 10px;
   width: 100%;
-  height: 45px;
+  height: 54px;
   z-index: 98;
+}
+@media only screen and (max-width: 375px) {
+  .covid-records {
+    margin-left: 5px;
+    padding: 59px;
+    width: 55%;
+  }
+  .Search-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    z-index: 100;
+    width: 100%;
+    margin-left: -11px;
+  }
+  .country-name {
+    font-size: 30px;
+  }
+  #selectedCountry {
+    border: none;
+    outline: none;
+    background-color: #afaaaa9c;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 40px 1px 0px 40px;
+    margin: 10px;
+  }
+  #search-button {
+    background-color: #ff647bc0;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px 40px 40px 0px;
+    margin-top: 12px;
+  }
+  .total-cases,
+  .active-cases,
+  .death-cases {
+    margin-top: 13px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .death-cases {
+    margin-top: -3px;
+  }
+  #infected,
+  #death {
+    color: #afaaaa;
+    margin-top: -12px;
+    font-size: 15px;
+  }
 }
