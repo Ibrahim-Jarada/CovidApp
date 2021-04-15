@@ -9,6 +9,16 @@ body {
   overflow: hidden;
 }
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-image: url("../assest/Frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   justify-content: space-evenly;
@@ -70,14 +80,14 @@ header {
 
 /* searched countr */
 .searched-country-section {
-  position: relative;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   margin-top: -365px;
-  justify-content: center;
   margin-left: 14px;
+  justify-content: space-evenly;
 }
-.covid-records {
+.covid-records,
+#third-row {
   display: flex;
   flex-direction: column;
   justify-content: top;
@@ -87,14 +97,16 @@ header {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  height: 540px;
-  width: 90%;
+  width: 40%;
   height: 430px;
   margin-top: 374px;
   border-radius: 15px;
   border: 1px solid #afaaaa5b;
   padding: 40px;
   margin-left: 30px;
+}
+#third-row {
+  width: 10%;
 }
 .total-cases,
 .active-cases,
@@ -149,12 +161,167 @@ footer {
   height: 54px;
   z-index: 98;
 }
+h1 {
+  margin-bottom: 20px;
+}
+
+
+#top1 .circle svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+}
+#top1 .circle svg circle {
+  width: 210px;
+  height: 210px;
+  fill: none;
+  stroke-width: 5;
+  stroke: black;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+}
+#top1 .circle svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f0eeec;
+}
+
+#top1 .circle .title,#top2 .circle .title,#top3 .circle .title {
+  position: absolute;
+  left: -45px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title p {
+  color: #1c0f13;
+}
+#stats-container {
+  height: 1%;
+}
+
+#top2 .circle,#top1 .circle,#top3 .circle {
+  position: relative;
+  width: 210px;
+  height: 50px;
+ margin-top: -50px;
+ padding: 30px;
+ padding-bottom: 40px;
+
+}
+#top2 .circle svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  
+}
+#top2 .circle svg circle {
+  width: 210px;
+  height: 210px;
+  fill: none;
+  stroke-width: 5;
+  stroke: black;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+}
+#top2 .circle svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f0eeec;
+}
+
+#top2 .circle .title {
+  position: absolute;
+  top: -45px;
+  left: -45px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+#top1 .circle .title{
+  margin-left: -5px;
+margin-top: -220px;
+}
+#top2 .circle .title,#top3 .circle .title{
+  margin-left: -5px;
+margin-top: 80px;
+}
+#top3 .circle svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+}
+#top3 .circle svg circle {
+  width: 210px;
+  height: 210px;
+  fill: none;
+  stroke-width: 5;
+  stroke: black;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+}
+#top3 .circle svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f0eeec;
+}
+
+#top3 .circle .title {
+  position: absolute;
+  top: -45px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 @media only screen and (max-width: 375px) {
-  .covid-records {
-    margin-left: 5px;
+  .searched-country-section {
+    display: flex;
+    flex-direction: row;
+  }
+  .covid-records,
+  #third-row {
+    position: relative;
+    margin-left: -16px;
+    height: 300px;
     padding: 59px;
+    display: flex;
+    justify-content: space-evenly;
     width: 55%;
   }
+  #third-row {
+    margin-top: 50px;
+    padding-top: 10px;
+    display: flex;
+height: 30%;
+
+
+}
+#top1 .circle .title{
+  margin-left: 30px;
+margin-top: -13px;
+}
+#top2 .circle .title,#top3 .circle .title{
+  margin-left: 30px;
+
+margin-top: 80px;
+}
+#top1 .circle svg,#top2 .circle svg,#top3 .circle svg{
+  padding-left: 30px;
+  margin-bottom:-200px;
+}
   .Search-section {
     display: flex;
     flex-wrap: wrap;
@@ -163,6 +330,7 @@ footer {
     z-index: 100;
     width: 100%;
     margin-left: -11px;
+    color: #ff647c;
   }
   .country-name {
     font-size: 30px;
