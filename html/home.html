@@ -10,27 +10,31 @@
     <title>Home</title>
 </head>
 <body>
-    <header><h1>Covid App</h1></header>
+    <header>
+        <img src="../assest/menu.png" alt="menu" class="header-img" >
+        <h2>Covid App</h2>
+        <img src="../assest/user-check.png" alt="user" class="header-img">
+    </header>
     <section>
        <h1 id="welcome">Welcome</h1>
        <div id="stats-container">
            <div id="first-row">
                <div id="total-cases">
-                   <h3>Total Cases</h3>
+                   <h3 class="cases">Total Cases</h3>
                    <p id="total-cases-num"></p>
                </div>
                <div id="active-cases">
-                <h3>Active Cases</h3>
+                <h3 class="cases">Active Cases</h3>
                 <p id="active-cases-num"></p>
             </div>
            </div>
            <div id="second-row">
             <div id="deaths">
-                <h3>Deaths</h3>
+                <h3 class="cases">Deaths</h3>
                 <p id="deaths-num"></p>
             </div>
             <div id="recoverd">
-             <h3>Recoverd</h3>
+             <h3 class="cases">Recoverd</h3>
              <p id="recoverd-num"></p>
          </div>
         </div>
@@ -63,10 +67,11 @@
 
        </div>
     </section>
+   
     <footer class="footer-icons">
         <a class="footer-icon" id="active" href="home.html"><img src="../assest/home.png" alt="home icon"><p class="footer-text">Home</p></a>
         <a class="footer-icon"  href="search.html"><img src="../assest/search.png" alt="map icon"><p class="footer-text">Search</p></a>
-        <a class="footer-icon" href="#"><img src="../assest/Education.png" alt="search icon"><p class="footer-text">Eduction</p></a> 
+        <a class="footer-icon" href="education.html"><img src="../assest/Education.png" alt="search icon"><p class="footer-text">Eduction</p></a> 
        
     </footer>
     <script src="../js/home.js"></script>

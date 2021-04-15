@@ -4,20 +4,23 @@
     padding: 0;
     text-align: center;
 box-sizing:content-box;
-
   }
   header {
     background-color: white;
-    position: fixed;
+    /* position: fixed;
     left: 0;
     right:0;
-    top: 0;
+    top: 0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 10px 0;
     font-size: 19px;
     font-weight: bold;
     text-align: center;
     box-shadow: 0px 0px 14px 2px #dcd6d6;
     width: 100%;
+    height: 65px;
 
     z-index: 98;
   }
@@ -42,26 +45,26 @@ box-sizing:content-box;
     display: flex;
     flex-direction: column;
   }
+
   footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    position: fixed;
-    color: #dcd6d6;
-    border-top: 1px solid #dcd6d6ce;
-    bottom: 0;
-    left: 0;
-    right:0;
-    padding: 15px 0;
-    width: 100%;
-  }
-  
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: #dcd6d6;
+  border-top: 1px solid #dcd6d6ce;
+  padding: 15px 0;
+  width: 100%;
+}
 
     /* New styling under this line ======================================================================= */
     section{
-      position:absolute;
-      top:100px;
+      /* position:absolute;
+      top:100px; */
       width:100%
+    }
+    #welcome{
+      margin-top: 12px;
     }
     #first-row{
       display: flex;
@@ -79,14 +82,88 @@ box-sizing:content-box;
  #third-row{
   display: flex;
   justify-content: space-evenly;
-  align-items:flex-start;
-  margin: 50px auto;
-  position: fixed;
-top: 330px ;
-  left:50px;
-  right: 0px;
-/* border: solid black 5px; */
+  /* align-items:flex-start; */
 
+  margin: 50px auto;
+
+  /* position: fixed;
+  top: 330px ;
+  left:50px;
+  right: 0px; */
+  padding-top: 62px;
+  padding-left: 34px;
+  width: 320px;
+  height: 165px;
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+
+
+
+}
+
+#total-cases{
+    border: 1px solid #E5E5E5;
+    width: 150px;
+    height: 160px;
+    border-radius: 8px;
+}
+.cases{
+  padding-top: 25px;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #999999;
+}
+#total-cases-num{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 20px;
+}
+
+#active-cases{
+  border: 1px solid #E5E5E5;
+  width: 150px;
+  height: 160px;
+  border-radius: 8px;
+}
+#active-cases-num{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 20px;
+  line-height: 34px;
+  color: #FF98A8;
+}
+
+
+#deaths{
+  border: 1px solid #E5E5E5;
+  width: 150px;
+  height: 160px;
+  border-radius: 8px;
+}
+#deaths-num{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 20px;
+  color: #ec566d;
+}
+
+
+#recoverd{
+  border: 1px solid #E5E5E5;
+  width: 150px;
+  height: 160px;
+  border-radius: 8px;
+}
+#recoverd-num{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 20px;
+  color: #00C48C ;
 }
 
 
@@ -110,8 +187,8 @@ top: 330px ;
       width: 210px;
       height: 210px;
       fill: none;
-      stroke-width: 5;
-      stroke: black;
+      stroke-width: 7;
+      stroke: #e43851;
       transform: translate(30px, 5px);
       stroke-dasharray: 314;
       stroke-dashoffset: 314;
@@ -158,8 +235,8 @@ height: 1%;
       width: 210px;
       height: 210px;
       fill: none;
-      stroke-width: 5;
-      stroke: black;
+      stroke-width: 7;
+      stroke: #88ddc5;
       transform: translate(30px, 5px);
       stroke-dasharray: 314;
       stroke-dashoffset: 314;
@@ -182,5 +259,35 @@ height: 1%;
       text-align: center;
     }
     p{
-      font-size: 20px;
+      /* font-size: 20px; */
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 34px;
     }
+    @media screen and (min-width: 768px){
+      #third-row{
+        width: 900px
+      }
+      #total-cases{
+        width: 190px;
+        height: 200px;
+      }
+      .cases{
+        padding-top: 45px;
+        font-size: 25px;
+        font-weight: 400;
+      }
+      #active-cases{
+        width: 190px;
+        height: 200px;
+      }
+      #deaths{
+        width: 190px;
+        height: 200px;
+      }
+      #recoverd{
+        width: 190px;
+        height: 200px;
+      }
+    }
+   
