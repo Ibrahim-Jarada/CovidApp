@@ -1,186 +1,251 @@
-* {
-    font-family: "Source Sans Pro", sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-box-sizing:content-box;
-
-  }
-  header {
-    background-color: white;
-    position: fixed;
-    left: 0;
-    right:0;
-    top: 0;
-    padding: 10px 0;
-    font-size: 19px;
-    font-weight: bold;
-    text-align: center;
-    box-shadow: 0px 0px 14px 2px #dcd6d6;
-    width: 100%;
-
-    z-index: 98;
-  }
-  /* footer style */
-  .footer-icon img {
-    display: flex;
-    width: 20px;
-    height: 20px;
-    margin-left: 12px;
-  }
-  #active {
-    color: #ff647c;
-  }
-  .footer-text {
-    font-size: 16px;
-    margin-top: -2px;
-    margin-left: -2px;
-  }
-  .footer-icon {
-    text-decoration: none;
-    color: #afaaaa;
-    display: flex;
-    flex-direction: column;
-  }
-  footer {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    position: fixed;
-    color: #dcd6d6;
-    border-top: 1px solid #dcd6d6ce;
-    bottom: 0;
-    left: 0;
-    right:0;
-    padding: 15px 0;
-    width: 100%;
-  }
-  
-
-    /* New styling under this line ======================================================================= */
-    section{
-      position:absolute;
-      top:100px;
-      width:100%
-    }
-    #first-row{
-      display: flex;
-      justify-content: space-between;
-      margin: 50px auto;
-  
-   }
-   #second-row{
-    display: flex;
-    justify-content: space-between;
-    margin: 50px auto;
-
-
- }
- #third-row{
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-image: url(../assest/Frame.png);
+  background-repeat: no-repeat;
+  background-position: 50% 35%;
+  width: auto;
+}
+header {
+  overflow-x: hidden;
+  background-color: white;
   display: flex;
-  justify-content: space-evenly;
-  align-items:flex-start;
-  margin: 50px auto;
-  position: fixed;
-top: 330px ;
-  left:50px;
-  right: 0px;
-/* border: solid black 5px; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 0px 14px 2px #dcd6d6;
+  width: 100%;
 
+  z-index: 98;
+}
+/* footer style */
+.footer-icon img {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
 }
 
+.footer-text {
+  font-size: 16px;
+  margin-top: -2px;
+  margin-left: -2px;
+}
+.footer-icon {
+  text-decoration: none;
+  color: #afaaaa;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: #dcd6d6;
+  border-top: 1px solid #dcd6d6ce;
+  padding: 10px 0;
+  width: 100%;
+}
 
-    h1{
-      margin-bottom: 20px;
-    }
+/* New styling under this line ======================================================================= */
+section {
+  width: 100%;
+}
+#welcome {
+  margin-top: 23px;
+}
+#first-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+#second-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+#third-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 50px auto;
+  padding-top: 62px;
+  padding-left: 34px;
+  width: 320px;
+  height: 165px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+#total-cases,
+#recoverd,
+#active-cases,
+#deaths {
+  border: 1px solid #e5e5e5;
+  width: 150px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.cases {
+  padding-top: 25px;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #999999;
+}
+#total-cases-num,
+#active-cases-num,
+#deaths-num,
+#recoverd-num {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  margin-top: 20px;
+}
 
-    #left .circle {
-      position: relative;
-      width: 210px;
-      height: 210px;
-      justify-content: center;
-      justify-items: center;
-    }
-    #left .circle svg {
-      position: relative;
-      width: 210px;
-      height: 210px;
-    }
-    #left .circle svg circle {
-      width: 210px;
-      height: 210px;
-      fill: none;
-      stroke-width: 5;
-      stroke: black;
-      transform: translate(30px, 5px);
-      stroke-dasharray: 314;
-      stroke-dashoffset: 314;
-    }
-    #left .circle svg circle:nth-child(1) {
-      stroke-dashoffset:0;
-      stroke: #f0eeec;
-    }
-    
-    
-    #left .circle .title {
-      position: absolute;
-      top: -50px;
-      left: -20px;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    
-    .title p {
-      color: #1c0f13;
-    }
-    #stats-container {
-height: 1%;
-    }
-  
-    
-    #right .circle {
-      position: relative;
-      width: 210px;
-      height: 210px;
-      justify-content: center;
-      justify-items: center;
-    }
-    #right .circle svg {
-      position: relative;
-      width: 210px;
-      height: 210px;
-    }
-    #right .circle svg circle {
-      width: 210px;
-      height: 210px;
-      fill: none;
-      stroke-width: 5;
-      stroke: black;
-      transform: translate(30px, 5px);
-      stroke-dasharray: 314;
-      stroke-dashoffset: 314;
-    }
-    #right .circle svg circle:nth-child(1) {
-      stroke-dashoffset:0;
-      stroke: #f0eeec;
-    }
-    
-    
-    #right .circle .title {
-      position: absolute;
-      top: -50px;
-      left: -20px;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
-    p{
-      font-size: 20px;
-    }
+#active-cases-num {
+  color: #ff98a8;
+}
+
+#deaths-num {
+  color: #ec566d;
+}
+
+#recoverd {
+  border: 1px solid #e5e5e5;
+  width: 150px;
+  height: 160px;
+  border-radius: 8px;
+}
+#recoverd-num {
+  color: #00c48c;
+}
+h1 {
+  margin-bottom: 20px;
+}
+
+#left .circle {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  justify-content: center;
+  justify-items: center;
+}
+#left .circle svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+}
+#left .circle svg circle {
+  width: 210px;
+  height: 210px;
+  fill: none;
+  stroke-width: 5;
+  stroke: #e43851;
+  transform: translate(30px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+}
+#left .circle svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f0eeec;
+}
+
+#left .circle .title {
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title p {
+  color: #1c0f13;
+}
+#stats-container {
+  height: 1%;
+}
+
+#right .circle {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  justify-content: center;
+  justify-items: center;
+}
+#right .circle svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+}
+#right .circle svg circle {
+  width: 210px;
+  height: 210px;
+  fill: none;
+  stroke-width: 5;
+  stroke: #88ddc5;
+  transform: translate(30px, 5px);
+  stroke-dasharray: 314;
+  stroke-dashoffset: 314;
+}
+#right .circle svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #f0eeec;
+}
+
+#right .circle .title {
+  position: absolute;
+  top: -50px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+}
+@media screen and (min-width: 768px) {
+  #third-row {
+    width: 900px;
+  }
+  #total-cases {
+    width: 190px;
+    height: 200px;
+  }
+  .cases {
+    padding-top: 45px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  #active-cases,
+  #deaths,
+  #recoverd {
+    width: 190px;
+    height: 200px;
+  }
+}
