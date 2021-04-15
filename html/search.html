@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/search.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/search.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
     <title>Search</title>
 </head>
+
 <body>
-    <header><h1>Covid App</h1></header>
-   
-    
+    <header>
+        <h1>Covid App</h1>
+    </header>
+
+    <section class="Search-section">
+        <input list="countries" id="selectedCountry" placeholder="     search..." />
+        <datalist id="countries"></datalist>
+        <button id="search-button" >Search  </button>
+    </section>
+
+    <section class="searched-country-section">
+        <div class="covid-records">
+            <h2 class="country-name"></h2>
+            <span class="total-cases"> <span id="total-cases"> </span></span>
+            <span class="active-cases"><span id="active-cases"></span></span>
+            <p class="infected" id="infected"><span class="infectedtext"></span></p>
+            <span class="death-cases"><span id="death-cases"></span> </span>
+            <p class="death" id="death"><span class="deathtext"></span></p>
+        </div>
+    </section>
     <footer class="footer-icons">
-        <a class="footer-icon" href="#"><img src="/assest/home.png" alt="home icon"><p class="footer-text">Home</p></a>
-        <a class="footer-icon" href="/html/search.html"><img src="/assest/search.png" alt="map icon"><p class="footer-text">Search</p></a>
-        <a class="footer-icon" href="#"><img src="/assest/Education.png" alt="search icon"><p class="footer-text">Eduction</p></a> 
-       
+        <a class="footer-icon" href="home.html"><img src="../assest/home.png" alt="home icon" />
+            <p class="footer-text">Home</p>
+        </a>
+        <a class="footer-icon" href="/html/search.html"><img src="../assest/search.png" alt="map icon" />
+            <p class="footer-text">Search</p>
+        </a>
+        <a class="footer-icon" href="education.html"><img src="../assest/Education.png" alt="search icon" />
+            <p class="footer-text">Eduction</p>
+        </a>
     </footer>
-    
+
+    <script src="../js/search.js"></script>
 </body>
 
 </html>
