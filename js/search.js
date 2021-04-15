@@ -79,7 +79,7 @@ function showData() {
   countryname.textContent = countryData["name"];
 
   totalcasesnum.textContent = countryData["total_cases"];
-  totalcasesnum.style.color = "#00C48C";
+  totalcasesnum.style.color = "#1d4439";
   totalcases.textContent = ` Total cases:       `;
   totalcases.appendChild(totalcasesnum);
 
