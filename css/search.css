@@ -6,17 +6,6 @@ body {
   width: auto;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-}
-
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  background-image: url("../assest/Frame.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: auto;
-  display: flex;
-  flex-direction: column;
 }
 
 header {
