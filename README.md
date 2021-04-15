@@ -32,13 +32,22 @@ The most appropriate application for the current covid situation an app to keep 
 ### The solution 🤞
 
 Our project solves the previous problem by **View statistics for the disease and places of its spread**
+- the user will be able to see the covid statistics for any country he would like to.
+- there are also some info to educate the user about covid safety etc...
 
  --- 
-### Website User Manual 
+###  User Story : 
 
 1.  The first four pages show you the symptoms of the disease and an explanation about them
 2. The **Search** page from which you can choose the country and view the statistics ,it will also contain the top 
 3. The **Home** page Detect user location from his/her IP by fetching an API then Return Covid Stats in his/her location by fetching another API with the result of the first one
 4. The **Education** page shows you many methods of prevention and safety
 5. You can move between pages through the menus at the bottom of the screen
+6. **home ** page will also include to top 3 Countries with most cases of Corona 
 ---
+
+![covid app](https://media.giphy.com/media/x5Le2GE4b7gTNlM88w/giphy.gif)
+### APIs :
+- https://get.geojs.io/v1/ip/country.json
+- https://quarantine.country/coronavirus/api/
+
