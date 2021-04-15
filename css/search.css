@@ -122,6 +122,10 @@ header {
   height: 20px;
   margin-left: 12px;
 }
+#active {
+  color: #ff647c;
+}
+
 .footer-icon:active {
   color: #ff647c;
 }
@@ -311,6 +315,7 @@ margin-top: 80px;
   padding-left: 30px;
   margin-bottom:-200px;
 }
+
   .Search-section {
     display: flex;
     flex-wrap: wrap;
