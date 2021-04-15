@@ -45,6 +45,16 @@ Our project solves the previous problem by **View statistics for the disease and
 5. You can move between pages through the menus at the bottom of the screen
 6. **home ** page will also include to top 3 Countries with most cases of Corona 
 ---
+### user journey 
+
+Our app consists of seven pages (Main Pages, Home Page, Search Page, Education Page).
+
+ * Main pages" is the first four pages, and the user can move to the "Homed Page" by clicking on Skip button, can move to the next page by clicking on Next button and he/she can move between them by click on dotlists at the bottom screen
+ * The Search page from which you can choose the country and view the statistics ,it will also contain the top 
+ 3. The Home page Detect user location from his/her IP by fetching an API then Return Covid Stats in his/her location by fetching another API with the result of the first one
+ 4. The Education page shows you many methods of prevention and safety
+ 5. You can move between pages through the menus at the bottom of the screen
+ 6. home  page will also include to top 3 Countries with most cases of Corona
 
 ![covid app](https://media.giphy.com/media/x5Le2GE4b7gTNlM88w/giphy.gif)
 ### APIs :
