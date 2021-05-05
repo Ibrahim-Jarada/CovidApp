@@ -107,9 +107,6 @@ function getTop3Countries() {
         max = regions[key]["total_cases"];
         top = key;
       }
-      console.log(key)
-      console.log(top)
-
     }
     var { [top]: tempVar, ...restCountries } = regions;
     // using ...regions  instead of ...restCountries will make regions locally declared due to var statement and it will became undefined
