@@ -12,19 +12,18 @@ let top3;
 var top1Data;
 var top2Data;
 var top3Data;
-const top1Ratio=document.getElementById('top1-ratio')
-const top1Percentage=document.getElementById('top1-percentage')
-const top2Ratio=document.getElementById('top2-ratio')
-const top2Percentage=document.getElementById('top2-percentage')
-const top3Ratio=document.getElementById('top3-ratio')
-const top3Percentage=document.getElementById('top3-percentage')
+const top1Ratio = document.getElementById("top1-ratio");
+const top1Percentage = document.getElementById("top1-percentage");
+const top2Ratio = document.getElementById("top2-ratio");
+const top2Percentage = document.getElementById("top2-percentage");
+const top3Ratio = document.getElementById("top3-ratio");
+const top3Percentage = document.getElementById("top3-percentage");
 let top1RatioValue;
 let top2RatioValue;
 let top3RatioValue;
-const top1div=document.getElementById('top1-header')
-const top2div=document.getElementById('top2-header')
-const top3div=document.getElementById('top3-header')
-
+const top1div = document.getElementById("top1-header");
+const top2div = document.getElementById("top2-header");
+const top3div = document.getElementById("top3-header");
 
 const countryname = document.querySelector(".country-name");
 
@@ -53,11 +52,11 @@ function setCountryName() {
   }
 }
 window.onload = () => {
-  getRegions()
+  getRegions();
   getLatestDataSummary()
-  .then(getTop3Countries)
-  .then(getTop3Ratios)
-  .then(showTop3Data)
+    .then(getTop3Countries)
+    .then(getTop3Ratios)
+    .then(showTop3Data);
 };
 function onClick() {
   setCountryName();
@@ -97,59 +96,68 @@ function getLatestDataSummary() {
     .then((res2) => (latestDataSummary = res2.data));
 }
 
-function getTop3Countries(){
-  let max=0;
-  regions=latestDataSummary['regions'];
-    for (key in  regions) {
-      if(regions[key]['total_cases']>max ){
-        max=regions[key]['total_cases'];
-        top1=key;
-      }
+function getTop3Countries() {
+  let max = 0;
+  regions = latestDataSummary["regions"];
+  for (key in regions) {
+    if (regions[key]["total_cases"] > max) {
+      max = regions[key]["total_cases"];
+      top1 = key;
     }
-    var {[top1]:tempVar, ...regions}= regions;
-    top1Data=tempVar;
-    max=0;
-    for (key in  regions) {
-      if(regions[key]['total_cases']>max ){
-        max=regions[key]['total_cases'];
-        top2=key;
-      }
+  }
+  var { [top1]: tempVar, ...regions } = regions;
+  top1Data = tempVar;
+  max = 0;
+  for (key in regions) {
+    if (regions[key]["total_cases"] > max) {
+      max = regions[key]["total_cases"];
+      top2 = key;
     }
-    var {[top2]:tempVar, ...regions}= regions;
-    top2Data=tempVar;
-    max=0;
-    for (key in  regions) {
-      if(regions[key]['total_cases']>max ){
-        max=regions[key]['total_cases'];
-        top3=key;
-      }
+  }
+  var { [top2]: tempVar, ...regions } = regions;
+  top2Data = tempVar;
+  max = 0;
+  for (key in regions) {
+    if (regions[key]["total_cases"] > max) {
+      max = regions[key]["total_cases"];
+      top3 = key;
     }
-    var {[top3]:tempVar, ...regions}= regions;
-    top3Data=tempVar;
-    regions=latestDataSummary['regions'];
   }
+  var { [top3]: tempVar, ...regions } = regions;
+  top3Data = tempVar;
+  regions = latestDataSummary["regions"];
+}
 
-  function getTop3Ratios(){
-    top1RatioValue=top1Data['total_cases']/latestDataSummary['summary']['total_cases'];
-    top2RatioValue=top2Data['total_cases']/latestDataSummary['summary']['total_cases'];
-    top3RatioValue=top3Data['total_cases']/latestDataSummary['summary']['total_cases'];
+function getTop3Ratios() {
+  top1RatioValue =
+    top1Data["total_cases"] / latestDataSummary["summary"]["total_cases"];
+  top2RatioValue =
+    top2Data["total_cases"] / latestDataSummary["summary"]["total_cases"];
+  top3RatioValue =
+    top3Data["total_cases"] / latestDataSummary["summary"]["total_cases"];
+}
 
-  }
+function showTop3Data() {
+  top1div.textContent = top1Data["name"];
+  top2div.textContent = top2Data["name"];
+  top3div.textContent = top3Data["name"];
 
-  function showTop3Data(){
-    top1div.textContent=top1Data['name'];
-    top2div.textContent=top2Data['name'];
-    top3div.textContent=top3Data['name'];
-
-    top1Ratio.style.setProperty('stroke-dashoffset',(314-314*top1RatioValue).toString())
-    top1Percentage.textContent=`${parseInt(top1RatioValue*1000)/10}%`
-    top2Ratio.style.setProperty('stroke-dashoffset',(314-314*top2RatioValue).toString())
-    top2Percentage.textContent=`${parseInt(top2RatioValue*1000)/10}%`
-    top3Ratio.style.setProperty('stroke-dashoffset',(314-314*top3RatioValue).toString())
-    top3Percentage.textContent=`${parseInt(top3RatioValue*1000)/10}%`
-
-  }
-
+  top1Ratio.style.setProperty(
+    "stroke-dashoffset",
+    (314 - 314 * top1RatioValue).toString()
+  );
+  top1Percentage.textContent = `${parseInt(top1RatioValue * 1000) / 10}%`;
+  top2Ratio.style.setProperty(
+    "stroke-dashoffset",
+    (314 - 314 * top2RatioValue).toString()
+  );
+  top2Percentage.textContent = `${parseInt(top2RatioValue * 1000) / 10}%`;
+  top3Ratio.style.setProperty(
+    "stroke-dashoffset",
+    (314 - 314 * top3RatioValue).toString()
+  );
+  top3Percentage.textContent = `${parseInt(top3RatioValue * 1000) / 10}%`;
+}
 
 function showData() {
   countryname.textContent = countryData["name"];
