@@ -96,7 +96,6 @@ function getLatestDataSummary() {
     .then((res2) => (latestDataSummary = res2.data));
 }
 
-<<<<<<< HEAD
 
 
 
@@ -130,40 +129,6 @@ function getTop3Countries() {
   top2Data = extactTop();
   top3Data = extactTop();
 }
-=======
-function getTop3Countries() {
-  let max = 0;
-  regions = latestDataSummary["regions"];
-  for (key in regions) {
-    if (regions[key]["total_cases"] > max) {
-      max = regions[key]["total_cases"];
-      top1 = key;
-    }
-  }
-  var { [top1]: tempVar, ...regions } = regions;
-  top1Data = tempVar;
-  max = 0;
-  for (key in regions) {
-    if (regions[key]["total_cases"] > max) {
-      max = regions[key]["total_cases"];
-      top2 = key;
-    }
-  }
-  var { [top2]: tempVar, ...regions } = regions;
-  top2Data = tempVar;
-  max = 0;
-  for (key in regions) {
-    if (regions[key]["total_cases"] > max) {
-      max = regions[key]["total_cases"];
-      top3 = key;
-    }
-  }
-  var { [top3]: tempVar, ...regions } = regions;
-  top3Data = tempVar;
-  regions = latestDataSummary["regions"];
-}
-
->>>>>>> main
 function getTop3Ratios() {
   top1RatioValue =
     top1Data["total_cases"] / latestDataSummary["summary"]["total_cases"];
@@ -194,7 +159,6 @@ function showTop3Data() {
   );
   top3Percentage.textContent = `${parseInt(top3RatioValue * 1000) / 10}%`;
 }
-
 function showData() {
   countryname.textContent = countryData["name"];
 
