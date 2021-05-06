@@ -96,17 +96,6 @@ function getLatestDataSummary() {
     .then((res2) => (latestDataSummary = res2.data));
 }
 
-
-
-
-
-
-
-
-
-
-
-
 function getTop3Countries() {
   regions = latestDataSummary["regions"];
   function extactTop() {
