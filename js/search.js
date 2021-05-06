@@ -107,7 +107,6 @@ function getLatestDataSummary() {
 
 
 
-
 function getTop3Countries() {
   regions = latestDataSummary["regions"];
   function extactTop() {
@@ -129,6 +128,7 @@ function getTop3Countries() {
   top2Data = extactTop();
   top3Data = extactTop();
 }
+
 function getTop3Ratios() {
   top1RatioValue =
     top1Data["total_cases"] / latestDataSummary["summary"]["total_cases"];
