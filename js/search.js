@@ -97,35 +97,26 @@ function getLatestDataSummary() {
 }
 
 function getTop3Countries() {
-  let max = 0;
   regions = latestDataSummary["regions"];
-  for (key in regions) {
-    if (regions[key]["total_cases"] > max) {
-      max = regions[key]["total_cases"];
-      top1 = key;
+  function extactTop() {
+    let max = 0;
+    let top; // this declaration so important  but I don't Know exactly why 
+    // now I know why top is a reserved keyword in javascript which return window.top
+    for (key in regions) {
+      if (regions[key]["total_cases"] > max) {
+        max = regions[key]["total_cases"];
+        top = key;
+      }
     }
+    var { [top]: tempVar, ...restCountries } = regions;
+    // using ...regions  instead of ...restCountries will make regions locally declared due to var statement and it will became undefined in line 105     for (key in regions) {
+      // also if we use let statement it will locally declared so it will give us an error       Cannot access 'regions' before initialization
+      regions = restCountries;
+    return tempVar;
   }
-  var { [top1]: tempVar, ...regions } = regions;
-  top1Data = tempVar;
-  max = 0;
-  for (key in regions) {
-    if (regions[key]["total_cases"] > max) {
-      max = regions[key]["total_cases"];
-      top2 = key;
-    }
-  }
-  var { [top2]: tempVar, ...regions } = regions;
-  top2Data = tempVar;
-  max = 0;
-  for (key in regions) {
-    if (regions[key]["total_cases"] > max) {
-      max = regions[key]["total_cases"];
-      top3 = key;
-    }
-  }
-  var { [top3]: tempVar, ...regions } = regions;
-  top3Data = tempVar;
-  regions = latestDataSummary["regions"];
+  top1Data = extactTop();
+  top2Data = extactTop();
+  top3Data = extactTop();
 }
 
 function getTop3Ratios() {
@@ -158,7 +149,6 @@ function showTop3Data() {
   );
   top3Percentage.textContent = `${parseInt(top3RatioValue * 1000) / 10}%`;
 }
-
 function showData() {
   countryname.textContent = countryData["name"];
 
