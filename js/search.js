@@ -109,8 +109,9 @@ function getTop3Countries() {
       }
     }
     var { [top]: tempVar, ...restCountries } = regions;
-    // using ...regions  instead of ...restCountries will make regions locally declared due to var statement and it will became undefined
-    regions = restCountries;
+    // using ...regions  instead of ...restCountries will make regions locally declared due to var statement and it will became undefined in line 105     for (key in regions) {
+      // also if we use let statement it will locally declared so it will give us an error       Cannot access 'regions' before initialization
+      regions = restCountries;
     return tempVar;
   }
   top1Data = extactTop();
