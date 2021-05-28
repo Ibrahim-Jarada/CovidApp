@@ -60,5 +60,8 @@ recoveryRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['re
 deathPercentage.textContent=`${parseInt(userDataSummary['death_ratio']*1000)/10}%`
 recoveryPercentage.textContent=`${parseInt(userDataSummary['recovery_ratio']*1000)/10}%`
 flag.src=`../assest/flags/${userCountryCode.toLowerCase()}.svg`;
+flag.style.border="solid grey 1px";
+//because some flags has white edges "the same color of background" 
+//we need it after loading img not before because in order not to appear while geting data
   }
     
