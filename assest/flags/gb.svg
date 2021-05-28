@@ -24,7 +24,7 @@ Guinea, Honduras, Israel, Jamaica, Jordan, and Romania Flags</dc:title>
 </License>
 </rdf:RDF>
 -->
-<svg id="svg1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata2995">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -34,12 +34,12 @@ Guinea, Honduras, Israel, Jamaica, Jordan, and Romania Flags</dc:title>
   </rdf:RDF>
  </metadata>
  <defs id="defs3">
-  <clipPath id="clipPath3224" clipPathUnits="userSpaceOnUse">
-   <rect id="rect3226" fill-opacity="0.67" height="500" width="500" y=".0000023437" x="250"/>
+  <clipPath id="clipPath8673" clipPathUnits="userSpaceOnUse">
+   <rect id="rect8675" fill-opacity="0.67" height="512" width="682.67" y="-.0000028613" x="-85.333"/>
   </clipPath>
  </defs>
- <g id="flag" clip-path="url(#clipPath3224)" transform="matrix(1.024 0 0 1.024 -256 -0.0000024)">
-  <g id="g578" stroke-width="1pt" transform="scale(16.667)">
+ <g id="flag" clip-path="url(#clipPath8673)" transform="matrix(.93750 0 0 .93750 80 .0000026825)">
+  <g id="g578" stroke-width="1pt" transform="matrix(17.067 0 0 17.067 -256 -0.0000024)">
    <rect id="rect124" height="30" width="60" y="0" x="0" fill="#006"/>
    <g id="g584">
     <path id="path146" d="m0 0v3.3541l53.292 26.646h6.708v-3.354l-53.292-26.646h-6.708zm60 0v3.354l-53.292 26.646h-6.708v-3.354l53.292-26.646h6.708z" fill="#fff"/>

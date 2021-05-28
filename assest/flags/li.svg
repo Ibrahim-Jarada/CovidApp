@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg1641" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg1641" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata3289">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,16 +10,38 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs1643">
-  <clipPath id="clipPath8661" clipPathUnits="userSpaceOnUse">
-   <rect id="rect8663" fill-opacity="0.67" height="495.71" width="495.71" y=".35429" x="0"/>
+  <clipPath id="clipPath4748" clipPathUnits="userSpaceOnUse">
+   <rect id="rect4750" fill-opacity="0.67" height="480" width="640" y="0" x="0"/>
   </clipPath>
  </defs>
- <g id="flag" fill-rule="evenodd" clip-path="url(#clipPath8661)" transform="matrix(1.0329 0 0 1.0329 0 -.36593)">
-  <g id="g1277" stroke-width="1pt">
-   <rect id="rect1644" height="248.03" width="744.09" y="248.03" x="0" fill="#e4104d"/>
-   <rect id="rect1645" height="247.68" width="744.09" y=".35428" x="0" fill="#8a85ff"/>
+ <g id="flag" clip-path="url(#clipPath4748)">
+  <g id="g4244">
+   <g id="g4230">
+    <g id="g4217">
+     <g id="g4205">
+      <g id="g4194">
+       <g id="g4184">
+        <g id="g4175">
+         <g id="g4167">
+          <g id="g4160">
+           <g id="g4154">
+            <g id="g4149">
+             <g id="g1277" fill-rule="evenodd" stroke-width="1pt" transform="matrix(.96831 0 0 .96831 0 -.34305)">
+              <rect id="rect1644" height="248.03" width="744.09" y="248.03" x="0" fill="#e4104d"/>
+              <rect id="rect1645" height="247.68" width="744.09" y=".35428" x="0" fill="#8a85ff"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
   </g>
-  <g id="g2039" transform="translate(-16.385 221.83)">
+  <g id="g2039" fill-rule="evenodd" transform="matrix(1.6953 0 0 1.6953 -124.21 288.5)">
    <g id="g1683" transform="matrix(.33390 0 0 .35510 103.07 -209.73)">
     <path id="path1677" d="m175.25 443.36 145.49-0.447s53.728-52.248 25.283-86.48c-28.444-34.232-139.96-1.082-140.41-1.082-0.451 0-0.903-18.376-28.444-18.737-27.541 0.361-27.992 18.737-28.443 18.737-0.452 0-111.97-33.15-140.41 1.082-28.444 34.232 25.284 86.48 25.284 86.48l141.66 0.447z" transform="matrix(1 0 0 1.1618 -.000041749 -125.32)" fill="#f3ef7d"/>
     <path id="path1682" d="m175.25 443.36 145.49-0.447s53.728-52.248 25.283-86.48c-28.444-34.232-139.96-1.082-140.41-1.082-0.451 0-0.903-18.376-28.444-18.737-27.541 0.361-27.992 18.737-28.443 18.737-0.452 0-111.97-33.15-140.41 1.082-28.444 34.232 25.284 86.48 25.284 86.48l141.66 0.447z" transform="matrix(0.96 0 0 1.1286 7.0866 -110.61)"/>

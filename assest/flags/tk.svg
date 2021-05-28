@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg1" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata3772">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,17 +10,19 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs3">
-  <clipPath id="clipPath6050" clipPathUnits="userSpaceOnUse">
-   <rect id="rect6052" fill-opacity="0.67" height="512" width="512" y="0" x="0"/>
+  <clipPath id="clipPath7218" clipPathUnits="userSpaceOnUse">
+   <rect id="rect7220" fill-opacity="0.67" height="480" width="640" y="0" x="0"/>
   </clipPath>
  </defs>
- <g id="flag" clip-path="url(#clipPath6050)">
-  <rect id="rect124" height="512" width="1024" y="0" x="0" fill="#006"/>
-  <path id="path146" d="m0 0v28.622l454.76 227.38h57.24v-28.62l-454.76-227.38h-57.24zm512 0v28.621l-454.76 227.38h-57.24v-28.62l454.76-227.38h57.24z" fill="#fff"/>
-  <path id="path136" d="m213.33 0v256h85.333v-256h-85.333zm-213.33 85.333v85.333h512v-85.333h-512z" stroke-width="1pt" fill="#fff"/>
-  <path id="path141" d="m0 102.4v51.2h512v-51.2h-512zm230.4-102.4v256h51.2v-256h-51.2z" stroke-width="1pt" fill="#c00"/>
-  <path id="path150" d="m0 256 170.67-85.333h38.162l-170.67 85.33h-38.16zm0-256l170.67 85.333h-38.162l-132.51-66.252v-19.081zm303.17 85.333 170.67-85.333h38.16l-170.67 85.333h-38.162zm208.83 170.67-170.67-85.33h38.162l132.51 66.25v19.08z" fill="#c00"/>
-  <g id="g5930" transform="matrix(.69449 0 0 .69449 -177.29 177.11)">
+ <g id="flag" clip-path="url(#clipPath7218)">
+  <rect id="rect124" height="480" width="960" y="0" x="0" fill="#006"/>
+  <g id="g7141" transform="scale(.66667)">
+   <path id="path146" d="m0 0v26.833l426.33 213.17h53.67v-26.83l-426.33-213.17h-53.67zm480 0v26.832l-426.33 213.17h-53.67v-26.83l426.33-213.17h53.67z" fill="#fff"/>
+   <path id="path136" stroke-width="1pt" fill="#fff" d="m200 0v240h80v-240h-80zm-200 80v80h480v-80h-480z"/>
+   <path id="path141" d="m0 96v48h480v-48h-480zm216-96v240h48v-240h-48z" stroke-width="1pt" fill="#c00"/>
+   <path id="path150" d="m0 240 160-80h35.777l-160 80h-35.78zm0-240 160 80h-35.78l-124.22-62.111v-17.889zm284.22 80 160-80h35.78l-160 80h-35.78zm195.78 160-160-80h35.78l124.22 62.11v17.89z" fill="#c00"/>
+  </g>
+  <g id="g5930" transform="matrix(.88070 0 0 .88070 -192.09 65.009)">
    <g id="g141" transform="scale(8.5333)">
     <path id="path133" d="m90 7.995 0.89919 2.7674h2.9098l-2.3541 1.7104 0.89919 2.7674-2.354-1.709-2.3541 1.7104 0.89919-2.7674-2.3541-1.7104h2.9098z" fill="#fff"/>
     <path id="path132" d="m90 8.8456 0.7082 2.1796h2.2918l-1.8541 1.3471 0.7082 2.1796-1.854-1.347-1.854 1.347 0.708-2.18-1.854-1.347h2.2918z" fill="#c00"/>

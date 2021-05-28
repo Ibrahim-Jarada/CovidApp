@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg1358" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg1358" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata3195">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,17 +10,17 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs1558">
-  <clipPath id="clipPath3640" clipPathUnits="userSpaceOnUse">
-   <rect id="rect3642" height="512" width="512" y="-2.8422e-14" x="0" fill="#808080"/>
+  <clipPath id="clipPath4541" clipPathUnits="userSpaceOnUse">
+   <rect id="rect4543" fill-opacity="0.67" height="216" width="288" y="-.000060480" x="0"/>
   </clipPath>
  </defs>
- <g id="flag" clip-path="url(#clipPath3640)">
-  <g id="g3442" transform="matrix(2.3704 0 0 2.3704 0 .00015214)">
+ <g id="flag">
+  <g id="g3442" transform="matrix(2.2222 0 0 2.2222 0 .0001344)" clip-path="url(#clipPath4541)">
    <path id="path1359" fill="#39c" d="m0-0.000064185v216h324v-216h-324z"/>
    <path id="path1553" fill="#ff0" d="m0 144v12h324v-12h-324z"/>
    <path id="path1555" fill="#ff0" d="m0 168v12h324v-12h-324z"/>
   </g>
-  <g id="g3256" transform="matrix(2.3804 0 0 2.3804 7.8063 -.49821)">
+  <g id="g3256" transform="matrix(2.9521 0 0 2.9521 0.946 -7.3585)">
    <path id="path1360" fill="#9cc" d="m48 12 1 1-1-1z"/>
    <path id="path1362" fill="#9cc" d="m47 14 1 1-1-1m2 0 1 1-1-1z"/>
    <path id="path1363" fill="#ccf" d="m47 15 1 1-1-1m2 0 1 1-1-1z"/>

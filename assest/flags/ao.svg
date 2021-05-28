@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg820" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg820" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata3028">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,7 +10,7 @@
   </rdf:RDF>
  </metadata>
  <g id="flag">
-  <g id="g3332" fill-rule="evenodd" stroke-width="1pt" transform="matrix(.68808 0 0 1.0168 0 -16.204)">
+  <g id="g3332" fill-rule="evenodd" stroke-width="1pt" transform="matrix(.86011 0 0 .95321 0 -15.191)">
    <rect id="rect918" height="255.53" width="744.09" y="15.937" x="0" fill="#f00"/>
    <rect id="rect919" height="255.53" width="744.09" y="263.97" x="0"/>
   </g>

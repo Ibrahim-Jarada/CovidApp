@@ -12,7 +12,7 @@ const recoveryRatio=document.getElementById('recovery-ratio')
 const deathPercentage=document.getElementById('death-percentage')
 const recoveryPercentage=document.getElementById('recovery-percentage')
 let wantToReload=false;
-
+const flag=document.getElementById('flag')
 
 window.onload = () => {
     getRegions();
@@ -59,6 +59,6 @@ deathRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['death
 recoveryRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['recovery_ratio']).toString())
 deathPercentage.textContent=`${parseInt(userDataSummary['death_ratio']*1000)/10}%`
 recoveryPercentage.textContent=`${parseInt(userDataSummary['recovery_ratio']*1000)/10}%`
-
+flag.src=`../assest/flags/${userCountryCode.toLowerCase()}.svg`;
   }
     

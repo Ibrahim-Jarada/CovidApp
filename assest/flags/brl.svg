@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="512"
-   height="512"
+   width="600"
+   height="400"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -37,8 +37,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="705"
-     inkscape:window-height="741"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
      id="namedview8"
      showgrid="false"
      inkscape:zoom="0.525"
@@ -49,9 +49,9 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <image
-     y="-1.8095238"
-     x="0.47619066"
-     id="image3035"
+     y="2.3809509"
+     x="2.3809378"
+     id="image2997"
      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJzt3WdgFFXbBuD77KYCISFlN3XTqBII0pGuCU2UjiiKoi8gRaRKsaEi2BAVpYkgICgqJQGFkECC
 ChYwQEAgQCCQuhvSC4Ts7nw/FD9Aki2Z2ZnZfa4/vm84c57H3XgzO3vmDINtKSM0mm4MiOSgCGDg
@@ -255,6 +255,6 @@ A0vkOOwqqSzbXlRUxPuzxgRfBBoYGNjAXeHc36hgQxTgBtOZFyF2hOMKjWB7FEYu7rqxJiE3N1fQ
 h1faetW6MkKj6caASA6KAAYukAMCGBDIAQFgCGBgbjbuiRBSCw7cDXDIY0AeB+T+/U+Wy2DM44CM
 S1ev/grAYKt+/g+srf0LZ9y1ygAAAABJRU5ErkJggg==
 "
-     height="515.2381"
-     width="511.42856" />
+     height="395.2381"
+     width="597.14288" />
 </svg>

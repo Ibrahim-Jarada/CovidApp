@@ -9,9 +9,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="512"
-   height="512"
-   viewBox="-5 -5 10.24 10.24"
+   width="640"
+   height="480"
+   viewBox="-5 -5 12.8 9.6"
    id="svg2"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="cn.svg">
@@ -39,9 +39,9 @@
      inkscape:window-height="776"
      id="namedview21"
      showgrid="false"
-     inkscape:zoom="1.1660156"
-     inkscape:cx="256"
-     inkscape:cy="256"
+     inkscape:zoom="1.24375"
+     inkscape:cx="320"
+     inkscape:cy="240"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -52,7 +52,7 @@
      id="defs8">
     <polygon
        id="s"
-       points="488533,-158734 -301930,415571 0,-513674 301930,415571 -488533,-158734 "
+       points="-301930,415571 0,-513674 301930,415571 -488533,-158734 488533,-158734 "
        transform="scale(1.94676e-6,1.94676e-6)"
        style="fill:#ffde00" />
     <clipPath
@@ -66,22 +66,11 @@
          x="-5"
          y="-15.400001" />
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3000">
-      <rect
-         style="fill:#000000;stroke:none"
-         id="rect3002"
-         width="19.999998"
-         height="19.999998"
-         x="-5"
-         y="-15.4" />
-    </clipPath>
   </defs>
   <g
      id="flag"
-     transform="matrix(0.51200002,0,0,0.51200002,-2.44,2.8848002)"
-     clip-path="url(#clipPath3000)"
+     transform="matrix(0.48,0,0,0.48,-2.6000001,2.3920003)"
+     clip-path="url(#clipPath3010)"
      inkscape:label="#g3000">
     <rect
        style="fill:#de2910"

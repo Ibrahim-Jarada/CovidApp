@@ -9,8 +9,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="512"
-   height="512"
+   width="640"
+   height="480"
    id="svg2"
    inkscape:version="0.91 r13725"
    sodipodi:docname="eu.svg">
@@ -41,9 +41,9 @@
      showgrid="false"
      inkscape:zoom="0.35308642"
      inkscape:cx="405"
-     inkscape:cy="270"
-     inkscape:window-x="658"
-     inkscape:window-y="140"
+     inkscape:cy="229.84832"
+     inkscape:window-x="695"
+     inkscape:window-y="86"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <desc
@@ -98,79 +98,79 @@
     </g>
   </defs>
   <rect
-     style="fill:#003399"
-     y="-2.5104895"
-     x="0"
-     width="518.28674"
-     height="523.00702"
-     id="rect20" />
+     width="642.9021"
+     height="483.35666"
+     id="rect20"
+     x="2.8321679"
+     y="2.3076911"
+     style="fill:#003399" />
   <g
-     style="fill:#ffcc00"
-     transform="matrix(20.621859,0,0,22.492887,259.05595,261.05162)"
-     id="g22">
+     transform="matrix(23.811189,0,0,23.981809,322.28322,245.88665)"
+     id="g22"
+     style="fill:#ffcc00">
     <use
-       height="100%"
-       width="100%"
-       x="0"
        xlink:href="#s"
        y="-6"
-       id="use24" />
-    <use
-       height="100%"
-       width="100%"
+       id="use24"
        x="0"
+       width="100%"
+       height="100%" />
+    <use
        xlink:href="#s"
        y="6"
-       id="use26" />
+       id="use26"
+       x="0"
+       width="100%"
+       height="100%" />
     <g
        id="l">
       <use
-         height="100%"
-         width="100%"
-         y="0"
          xlink:href="#s"
          x="-6"
-         id="use29" />
-      <use
-         height="100%"
-         width="100%"
+         id="use29"
          y="0"
-         x="0"
+         width="100%"
+         height="100%" />
+      <use
          xlink:href="#s"
          transform="matrix(-0.80901699,-0.58778525,0.58778525,-0.80901699,-3,-5.1961524)"
-         id="use31" />
-      <use
-         height="100%"
-         width="100%"
-         y="0"
+         id="use31"
          x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
          xlink:href="#s"
          transform="matrix(-0.80901699,0.58778525,-0.58778525,-0.80901699,-5.1961524,-3)"
-         id="use33" />
-      <use
-         height="100%"
-         width="100%"
-         y="0"
+         id="use33"
          x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
          xlink:href="#s"
          transform="matrix(0.30901699,0.95105652,-0.95105652,0.30901699,-5.1961524,3)"
-         id="use35" />
-      <use
-         height="100%"
-         width="100%"
-         y="0"
+         id="use35"
          x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
          xlink:href="#s"
          transform="matrix(0.30901699,0.95105652,-0.95105652,0.30901699,-3,5.1961524)"
-         id="use37" />
+         id="use37"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </g>
     <use
-       height="100%"
-       width="100%"
-       y="0"
-       x="0"
        xlink:href="#l"
        transform="scale(-1,1)"
-       id="use39" />
+       id="use39"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
   </g>
 </svg>

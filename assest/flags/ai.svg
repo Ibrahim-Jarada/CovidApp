@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg548" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg548" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata4564">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,12 +10,12 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs1346">
-  <clipPath id="clipPath6870" clipPathUnits="userSpaceOnUse">
-   <rect id="rect6872" fill-opacity="0.67" height="512" width="512" y="0" x="0"/>
+  <clipPath id="clipPath9925" clipPathUnits="userSpaceOnUse">
+   <rect id="rect9927" fill-opacity="0.67" height="480" width="640" y="0" x="0"/>
   </clipPath>
  </defs>
- <g id="flag" clip-path="url(#clipPath6870)">
-  <g id="g4539" transform="translate(-2)">
+ <g id="g7603" clip-path="url(#clipPath9925)">
+  <g id="g4539" transform="matrix(.9375 0 0 .9375 155.92 2.9297e-7)">
    <rect id="rect1310" fill-rule="evenodd" height="256.07" width="429.52" y=".44916" x="-165.86" stroke-width="1pt" fill="#fff"/>
    <path id="path549" d="m-165.86 0.44988-0.0179 19.219 102.5 63.221 38.565 1.3414-141.05-83.781z" fill="#c00"/>
    <path id="path551" d="m-121.97 0.44988 124.26 77.916v-77.916h-124.26z" fill="#006"/>
@@ -26,7 +26,7 @@
    <path id="path700" d="m-165.86 173.33v54.471l85.258-53.902-85.258-0.56863z" fill="#006"/>
    <path id="path701" d="m162.45 175.58-35.543-0.33108 133.97 80.072-0.881-18.319-97.55-61.422zm-295.02 81.091 125.62-79.172-32.994 0.26265-125.92 78.791" fill="#c00"/>
   </g>
-  <g id="g5283" transform="matrix(2.1655 0 0 2.1655 -213.91 -525.81)">
+  <g id="g5283" transform="matrix(2.0302 0 0 2.0302 -20.748 -474.95)">
    <path id="path557" d="m269 356 1 1-1-1z" fill="#49497d"/>
    <path id="path558" d="m270 356 1 1-1-1z" fill="#0e0e6e"/>
    <path id="path559" d="m267 357 1 1-1-1z" fill="#262678"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg548" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg548" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata3234">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,15 +10,15 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs550">
-  <clipPath id="clipPath5478" clipPathUnits="userSpaceOnUse">
-   <rect id="rect5480" fill-opacity="0.67" height="496.06" width="496.06" y="-.00013532" x="-.00096892"/>
+  <clipPath id="clipPath6485" clipPathUnits="userSpaceOnUse">
+   <rect id="rect6487" fill-opacity="0.67" height="512" width="682.6" y=".0000011252" x="5.67e-8"/>
   </clipPath>
  </defs>
- <g id="flag" fill-rule="evenodd" clip-path="url(#clipPath5478)" transform="matrix(1.0321 0 0 1.0321 0.001 .00013967)">
-  <rect id="rect1535" transform="translate(0 -.000015259)" height="329.53" width="992.13" y=".000043" x="0" stroke-width="1pt" fill="#b20000"/>
-  <rect id="rect2026" transform="translate(0 -.000015259)" height="166.54" width="992.13" y="329.53" x="0" stroke-width="1pt" fill="#429f00"/>
-  <rect id="rect1291" transform="translate(0 -.000030518)" height="496.06" width="109.84" y="-.000105" x="0" stroke-width="1.0004pt" fill="#fff"/>
-  <g id="g1528" stroke-width="1pt" fill="#b20000" transform="matrix(.29524 0 0 .23729 141.23 142.93)">
+ <g id="flag" fill-rule="evenodd" clip-path="url(#clipPath6485)" transform="matrix(.93759 0 0 .93750 -5.3161e-8 -.0000010549)">
+  <rect id="rect1535" height="340.11" width="1024" y=".00016830" x="0.001" stroke-width="1pt" fill="#b20000"/>
+  <rect id="rect2026" height="171.89" width="1024" y="340.11" x="0.001" stroke-width="1pt" fill="#429f00"/>
+  <rect id="rect1291" height="512" width="113.37" y="-2.0117e-7" x="0.001" stroke-width="1.0004pt" fill="#fff"/>
+  <g id="g1528" stroke-width="1pt" fill="#b20000" transform="matrix(.30472 0 0 .24491 145.76 147.53)">
    <rect id="rect557" transform="matrix(5 0 0 5 549.21 -35.433)" height="7.0866" width="3.5433" y="-106.3" x="-201.97"/>
    <rect id="rect560" transform="matrix(5 0 0 5 549.21 -35.433)" height="7.0866" width="10.63" y="-106.3" x="-191.34"/>
    <rect id="rect561" transform="matrix(5 0 0 5 549.21 -35.433)" height="7.0866" width="3.5433" y="-113.39" x="-187.8"/>

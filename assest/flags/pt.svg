@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
-<svg id="svg548" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="512" width="512" version="1" y="0" x="0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<svg id="svg548" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1" y="0" x="0" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <metadata id="metadata4089">
   <rdf:RDF>
    <cc:Work rdf:about="">
@@ -10,16 +10,16 @@
   </rdf:RDF>
  </metadata>
  <defs id="defs550">
-  <linearGradient id="linearGradient11677" y2="-5035.4" gradientUnits="userSpaceOnUse" y1="-5035.4" gradientTransform="matrix(.080015 0 0 .13320 -143.77 670.73)" x2="4203.4" x1="359.59">
+  <linearGradient id="linearGradient6733" y2="-5035.4" gradientUnits="userSpaceOnUse" y1="-5035.4" gradientTransform="matrix(.085350 0 0 .14208 -225.71 715.44)" x2="4203.4" x1="359.59">
    <stop id="stop562" offset="0"/>
    <stop id="stop563" stop-color="#fff" offset="1"/>
   </linearGradient>
-  <clipPath id="clipPath12804" clipPathUnits="userSpaceOnUse">
-   <rect id="rect12806" fill-opacity="0.67" height="512" width="512" y="0" x="0"/>
+  <clipPath id="clipPath7504" clipPathUnits="userSpaceOnUse">
+   <rect id="rect7506" fill-opacity="0.67" height="512" width="682.67" y=".0000053048" x="-72.352"/>
   </clipPath>
  </defs>
- <g id="flag" clip-path="url(#clipPath12804)">
-  <rect id="rect555" height="511.87" width="307.43" stroke="url(#linearGradient11677)" y=".064535" x="-114.94" stroke-width=".10324pt" fill="#090"/>
+ <g id="flag" clip-path="url(#clipPath7504)" transform="matrix(.9375 0 0 .9375 67.83 -.0000049733)">
+  <rect id="rect555" height="511.87" width="307.43" stroke="url(#linearGradient6733)" y=".064535" x="-114.94" stroke-width=".11012pt" fill="#090"/>
   <rect id="rect557" fill-rule="evenodd" height="512" width="461.15" y="-.0000025034" x="191.82" stroke-width="1pt" fill="#f00"/>
   <g id="g1527" fill-rule="evenodd" stroke-width="1pt" transform="matrix(.10329 0 0 .10306 23.562 74.592)">
    <g id="g1009" transform="matrix(-.053403 1.0792 .43966 -.043588 1384.9 -475.58)">
