@@ -1,4 +1,4 @@
-let userCountryCode = "CHN";
+let userCountryCode = "CN";
 let countrycodes=[]; // object countrycode:api key
 let latestDataSummary=[];
 let userDataSummary=[];
@@ -27,7 +27,7 @@ window.onload = () => {
     let url='https://get.geojs.io/v1/ip/country.json';
    return fetch(url)
     .then(res=>res.json())
-    .then(data=>userCountryCode=data['country_3'])
+    .then(data=>userCountryCode=data['country'])
     
   }
   
@@ -42,7 +42,7 @@ window.onload = () => {
     fetch(url)
     .then(res=>res.json())
     .then(res2=>res2['data'].forEach(element => {
-      countrycodes[element.iso3166a3]=element.key;
+      countrycodes[element.iso3166a2]=element.key;
     }))
   }
   
