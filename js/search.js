@@ -98,25 +98,14 @@ function getLatestDataSummary() {
 
 function getTop3Countries() {
   regions = latestDataSummary["regions"];
-  function extactTop() {
-    let max = 0;
-    let top; // this declaration so important  but I don't Know exactly why 
-    // now I know why top is a reserved keyword in javascript which return window.top
-    for (key in regions) {
-      if (regions[key]["total_cases"] > max) {
-        max = regions[key]["total_cases"];
-        top = key;
-      }
-    }
-    var { [top]: tempVar, ...restCountries } = regions;
-    // using ...regions  instead of ...restCountries will make regions locally declared due to var statement and it will became undefined in line 105     for (key in regions) {
-      // also if we use let statement it will locally declared so it will give us an error       Cannot access 'regions' before initialization
-      regions = restCountries;
-    return tempVar;
-  }
-  top1Data = extactTop();
-  top2Data = extactTop();
-  top3Data = extactTop();
+      // in past we use 3 loops for 3 Countries what if we need top 10 ?? 10 loops!!
+    // this enchancement to reduce loops 
+  regions= Object.entries(regions);
+  regions.sort((a,b)=>b[1]["total_cases"]-a[1]["total_cases"]);
+  regions.unshift("zero index");
+  top1Data = regions[1][1];
+  top2Data = regions[2][1];
+  top3Data = regions[3][1];
 }
 
 function getTop3Ratios() {
