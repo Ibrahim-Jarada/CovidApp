@@ -1,4 +1,4 @@
-let userCountryCode = "CHN";
+let userCountryCode = "CN";
 let countrycodes=[]; // object countrycode:api key
 let latestDataSummary=[];
 let userDataSummary=[];
@@ -12,7 +12,7 @@ const recoveryRatio=document.getElementById('recovery-ratio')
 const deathPercentage=document.getElementById('death-percentage')
 const recoveryPercentage=document.getElementById('recovery-percentage')
 let wantToReload=false;
-
+const flag=document.getElementById('flag')
 
 window.onload = () => {
     getRegions();
@@ -27,7 +27,7 @@ window.onload = () => {
     let url='https://get.geojs.io/v1/ip/country.json';
    return fetch(url)
     .then(res=>res.json())
-    .then(data=>userCountryCode=data['country_3'])
+    .then(data=>userCountryCode=data['country'])
     
   }
   
@@ -42,7 +42,7 @@ window.onload = () => {
     fetch(url)
     .then(res=>res.json())
     .then(res2=>res2['data'].forEach(element => {
-      countrycodes[element.iso3166a3]=element.key;
+      countrycodes[element.iso3166a2]=element.key;
     }))
   }
   
@@ -59,6 +59,9 @@ deathRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['death
 recoveryRatio.style.setProperty('stroke-dashoffset',(314-314*userDataSummary['recovery_ratio']).toString())
 deathPercentage.textContent=`${parseInt(userDataSummary['death_ratio']*1000)/10}%`
 recoveryPercentage.textContent=`${parseInt(userDataSummary['recovery_ratio']*1000)/10}%`
-
+flag.src=`../assest/flags/${userCountryCode.toLowerCase()}.svg`;
+flag.style.border="solid grey 1px";
+//because some flags has white edges "the same color of background" 
+//we need it after loading img not before because in order not to appear while geting data
   }
     
